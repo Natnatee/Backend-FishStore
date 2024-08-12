@@ -25,10 +25,6 @@ const OrderItem = sequelize.define('OrderItem', {
       key: 'id'
     }
   },
-  name: {
-    type: DataTypes.STRING,
-    allowNull: false
-  },
   quantity: {
     type: DataTypes.INTEGER,
     allowNull: false

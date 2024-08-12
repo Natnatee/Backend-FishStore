@@ -23,6 +23,10 @@ const Product = sequelize.define('Product', {
     type: DataTypes.INTEGER,
     allowNull: false
   },
+  description: {
+    type: DataTypes.STRING,
+    allowNull: false
+  },
   image: { // ฟิลด์สำหรับเก็บ URL ของรูปภาพ
     type: DataTypes.STRING,
     allowNull: true
