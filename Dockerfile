@@ -17,6 +17,10 @@ COPY . .
 EXPOSE 5000
 
 # Define environment variable for PORT
+ENV DATABASE_URL="postgresql://FishStore_owner:2hzUZ9VjNCGd@ep-restless-credit-a1q153ov.ap-southeast-1.aws.neon.tech/FishStore?sslmode=require"
+ENV JWT_SECRET="Fish_Store"
+ENV EMAIL_USER="RoddeeJSD@outlook.com"
+ENV EMAIL_PASSWORD="@Rr123456789"
 ENV PORT=5000
 
 # Start the application
